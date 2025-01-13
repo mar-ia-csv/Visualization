@@ -1,0 +1,35 @@
+AviationData.csv holds information collected by  NTSB (National Transportation Safety Board), containing 88.890 rows and 31 columns, well over the minimum requirements for a robust analysis. It holds data between 1962 and 2022.
+
+Its fields are:
+  
+1. Event ID: Unique identifier for each aviation event.  
+2. Investigation Type: Type of investigation conducted (e.g., Accident or Incident).  
+3. Accident Number: Unique number assigned to the accident.  
+4. Date: Date of the event.  
+5. Location: Geographic location of the event.  
+6. Country: Country where the event occurred.  
+7. Latitude: Geographic latitude of the event location.  
+8. Longitude: Geographic longitude of the event location.  
+9. Airport Code: Code of the airport associated with the event.  
+10. Airport Name: Name of the airport associated with the event.  
+11. Injury Severity: Severity of the injuries resulting from the event.  
+12. Aircraft Damage: Level of damage to the aircraft (e.g., Destroyed, Substantial).  
+13. Aircraft Category: Category of the aircraft involved in the event.  
+14. Registration Number: Registration number of the aircraft.  
+15. Make: Manufacturer of the aircraft.  
+16. Model: Model of the aircraft.  
+17. Amateur Built: Indicates whether the aircraft was amateur-built (Yes/No).  
+18. Number of Engines: Number of engines on the aircraft.  
+19. Engine Type: Type of engine (e.g., Turboprop, Jet).  
+20. FAR Description: Category under Federal Aviation Regulations (FAR).  
+21. Schedule: Indicates whether the flight was scheduled or unscheduled.  
+22. Purpose of Flight: Purpose of the flight (e.g., Personal, Commercial).  
+23. Air Carrier: Name of the airline, if applicable.  
+24. Total Fatal Injuries: Total number of fatalities in the event.  
+25. Total Serious Injuries: Total number of serious injuries.  
+26. Total Minor Injuries: Total number of minor injuries.  
+27. Total Uninjured: Total number of uninjured persons.  
+28. Weather Condition: Weather conditions at the time of the event (e.g., VMC, IMC).  
+29. Broad Phase of Flight: Phase of the flight during which the event occurred (e.g., Takeoff, Landing).  
+30. Report Status: Status of the report (e.g., Final, Preliminary).
+31. Publication date: Date of publication of the accident report
