@@ -5,51 +5,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aviation Visualizations</title>
     <style>
+        /* General Styling */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
+            background-color: #f8fafc;
             color: #333;
+            line-height: 1.6;
         }
+
+        /* Header Styling */
         header {
-            background-color: #0078d4;
+            background-color: #005eb8;
             color: white;
-            padding: 10px 20px;
+            padding: 20px 0;
             text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+
+        header h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1rem;
+            margin: 10px 0 0;
+            opacity: 0.9;
+        }
+
+        /* Main Section */
         main {
             padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
         }
+
+        main h2 {
+            color: #005eb8;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        /* List Styling */
         ul {
             list-style-type: none;
             padding: 0;
+            margin: 0;
         }
+
         li {
-            margin: 10px 0;
+            margin: 15px 0;
+            background: #e6f1fb;
+            border: 1px solid #cce4f7;
+            border-radius: 8px;
+            padding: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+
+        li:hover {
+            background: #d1eafc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
         a {
-            color: #0078d4;
+            color: #005eb8;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #005eb8;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #e6f1fb;
             text-decoration: none;
         }
-        a:hover {
+
+        footer a:hover {
             text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Práctica Visualización de datos: explorando datos aeronáuticos</h1>
-        <p>Visualizamos el dataset "Aviation Accident Database & Synopses" (NSTB)</p>
+        <h1>Práctica Visualización de Datos: Explorando Datos Aeronáuticos</h1>
+        <p>Visualizamos el dataset "Aviation Accident Database & Synopses" (NTSB)</p>
     </header>
     <main>
         <h2>Visualizaciones</h2>
         <ul>
-            <li><a href="1_map.html">Dot density map global: ¿Dónde tienen problemas los aviones?</a></li>
-            <li><a href="2_injuries.html">Gráfico de área apilada: ¿Cómo se distribuyen las lesiones?</a></li>
-            <li><a href="3_sunburst.html">Sunburst chart: ¿Cómo se distribuyen los accidentes aéreos según las fases de vuelo y las condiciones meteorológicas?</a></li>
+            <li><a href="1_map.html">Dot Density Map Global: ¿Dónde tienen problemas los aviones?</a></li>
+            <li><a href="2_injuries.html">Gráfico de Área Apilada: ¿Cómo se distribuyen las lesiones?</a></li>
+            <li><a href="3_sunburst.html">Sunburst Chart: ¿Cómo se distribuyen los accidentes aéreos según las fases de vuelo y las condiciones meteorológicas?</a></li>
             <li><a href="4_treemap.html">Treemap: ¿Qué tipos de vuelo acumulan más accidentes?</a></li>
-            
+        </ul>
     </main>
+    <footer>
+        <p> Práctica de Visualización de Datos - Máster en Ciencia de Datos UOC | Enero 2025<a></a></p>
+    </footer>
 </body>
 </html>
+
