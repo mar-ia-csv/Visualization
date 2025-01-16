@@ -1,7 +1,7 @@
 import pandas as pd
 import plotly.express as px
 
-file_path = r'..\Aviation_datasets\AviationData.csv'
+file_path = r'AviationData.csv'
 aviation_data = pd.read_csv(file_path, encoding='latin1', low_memory=False)
 
 
