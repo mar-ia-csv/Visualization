@@ -5,7 +5,7 @@ import plotly.express as px
 Este programa de Python mostrará un dot density map que representa accidentes e incidentes aéreos a nivel global.
 """
 
-file_path = r'..\\Aviation_datasets\\AviationData.csv'
+file_path = r'AviationData.csv'
 aviation_data = pd.read_csv(file_path, encoding='latin1', low_memory=False)
 #print(aviation_data.columns)
 
